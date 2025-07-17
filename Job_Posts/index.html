@@ -505,7 +505,7 @@
                 if (e.target === modal) modal.style.display = 'none';
             });
 
-            fetch('http://44.223.23.14:3411/api/jobs')
+            fetch('http://51.21.195.141:3103/api/jobs')
                 .then(response => {
                     if (!response.ok) throw new Error('Network response was not ok');
                     return response.json();
