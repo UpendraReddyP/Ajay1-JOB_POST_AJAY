@@ -33,7 +33,7 @@ services:
     ports:
       - "3103:3103"
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://51.21.195.141:3103/api/jobs"]
+      test: ["CMD", "curl", "-f", "http://13.60.58.217:3103/api/jobs"]
       interval: 5s
       timeout: 5s
       retries: 10
